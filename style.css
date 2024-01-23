@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(225, 198, 198);
+}
+.container{
+    max-width:900px;
+    margin: 0 auto;
+
+}
+h1{
+    text-align:center;
+}
+.apply_box{
+    margin:0 auto;
+    max-width:500px;
+    padding:30px;
+    background-color:white;
+    box-shadow:2px 3px 4px rgba(1,1,1,0.7);
+    border-radius:15px;
+
+}
+.form_input{
+    margin-top:20px;
+    
+    letter-spacing:1.3px;
+    line-height:20px;
+    font-size:20px;
+    
+}
+#first_name{
+    height:40px;
+    width:300px;
+    transition:0.3s ease-out;
+
+}
+#second_name{
+    height:40px;
+    width:300px;
+    transition:0.3s ease-out;
+
+}
+#email{
+    height:40px;
+    width:300px;
+    transition:0.3s ease-out;
+}
+#Job_Role{
+    height:40px;
+    width:300px;
+
+}
+#City{
+    height:40px;
+    width:300px;
+    transition:0.3s ease-out;
+}
+#Pincode{
+    height:40px;
+    width:300px;
+    transition:0.3s ease-out;
+}
+#Joining_date{
+    height:40px;
+    width:300px;
+    transition:0.3s ease-out;
+}
+
+#first_name:hover{
+    background-color:rgb(255, 238, 241);
+    border:3px solid grey;
+    color:black;
+    transition:0.3s ease-out;
+    border:2px solid red;
+  }
+#second_name:hover{
+    background-color:rgb(255, 238, 241);
+    border:3px solid grey;
+    color:black;
+    transition:0.3s ease-out;
+    border:2px solid red;
+}
+#email:hover{
+    background-color:rgb(255, 238, 241);
+    border:3px solid grey;
+    color:black;
+    border:2px solid red;
+    transition:0.3s ease-out;
+    
+}
+#City:hover{
+    background-color:rgb(255, 238, 241);
+    border:3px solid grey;
+    color:black;
+    transition:0.3s ease-out;
+    border:2px solid red;
+}
+#address:hover{
+    background-color:rgb(255, 238, 241);
+    border:3px solid grey;
+    color:black;
+    transition:0.3s ease-out;
+    border:2px solid red;
+}
+button{
+    background-color: rgb(169, 10, 10);
+    font-style:normal;
+    color:white;
+    height:28px;
+    width:100px;
+    Border:solid 2px rgb(71, 7, 7);
+    float:right;
+    margin-left:50px;
+    margin-bottom:50px;
+    border-radius: 3px; 
+    transition: 0.3s ease-out;
+}
+button:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
